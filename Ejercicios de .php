@@ -121,10 +121,10 @@ if ($numero > 0) {
 echo "## Mar y Tierra 1 al 30 ##\n\n";
 
 for ($i = 1; $i <= 30; $i++) {
-    if ($i % 3 === 0 && $i % 5 === 0) {
+    if ($i % 3 == 0 && $i % 5 == 0) {
         echo "MarTierra\n";
     } else if ($i % 3 === 0) {
-        echo "Mar\n";
+        echo "Mar\n"
     } else if ($i % 5 === 0) {
         echo "Tierra\n";
     } else {
